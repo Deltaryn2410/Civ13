@@ -205,7 +205,7 @@ var/list/name_to_material
 // Datum definitions follow.
 
 /material/diamond
-	name = "diamond"
+	name = "Алмаз"
 	icon_colour = "#00FFE1"
 	hardness = 100
 	cut_delay = 60
@@ -217,7 +217,7 @@ var/list/name_to_material
 	integrity = 30000
 
 /material/obsidian
-	name = "obsidian"
+	name = "Обсидиан"
 	icon_colour = "#060606"
 	hardness = 85
 //	door_icon_base = "stone" (too dark)
@@ -227,7 +227,7 @@ var/list/name_to_material
 	integrity = 15000
 
 /material/barbedwire
-	name = "barbedwire"
+	name = "Колючая проволка"
 	icon_colour = "#FFFFFF"
 	hardness = 30
 	cut_delay = 10
@@ -237,7 +237,7 @@ var/list/name_to_material
 	flags = MATERIAL_UNMELTABLE
 
 /material/rope
-	name = "rope"
+	name = "Верёвка"
 	icon_colour = "#FFFFFF"
 	hardness = 10
 	cut_delay = 5
@@ -249,7 +249,7 @@ var/list/name_to_material
 	flags = MATERIAL_UNMELTABLE
 
 /material/tobacco
-	name = "tobacco"
+	name = "Табак"
 	icon_colour = "#FFFFFE"
 	hardness = 10
 	cut_delay = 5
@@ -261,7 +261,7 @@ var/list/name_to_material
 	flags = MATERIAL_UNMELTABLE
 
 /material/hemp
-	name = "hemp"
+	name = "Конопля"
 	icon_colour = "#32cd32" //lime green
 	hardness = 10
 	cut_delay = 5
@@ -273,7 +273,7 @@ var/list/name_to_material
 	flags = MATERIAL_UNMELTABLE
 
 /material/flax
-	name = "flax"
+	name = "Лен"
 	icon_colour = "#5f9ea0" //desaturated dark cyan.
 	hardness = 10
 	cut_delay = 5
@@ -285,7 +285,7 @@ var/list/name_to_material
 	flags = MATERIAL_UNMELTABLE
 
 /material/leaf
-	name = "leaf"
+	name = "Лист"
 	icon_colour = "#556b2f" // dark olive-green
 	hardness = 10
 	cut_delay = 5
@@ -297,17 +297,17 @@ var/list/name_to_material
 	flags = MATERIAL_UNMELTABLE
 
 /material/leaf/palm
-	name = "palm"
+	name = "Пальма"
 	icon_colour = "#adff2f" //green yellow
 	stack_type = /obj/item/stack/material/leaf/palm
 
 /material/leaf/fern
-	name = "fern"
+	name = "Папоротник"
 	icon_colour = "#006400" //dark green
 	stack_type = /obj/item/stack/material/leaf/fern
 
 /material/coca
-	name = "coca"
+	name = "Кока"
 	icon_colour = "#faeff1"
 	hardness = 10
 	cut_delay = 5
@@ -319,7 +319,7 @@ var/list/name_to_material
 	flags = MATERIAL_UNMELTABLE
 
 /material/poppy
-	name = "poppy"
+	name = "Мак"
 	icon_colour = "#2b1d0e"
 	hardness = 10
 	cut_delay = 5
@@ -331,7 +331,7 @@ var/list/name_to_material
 	flags = MATERIAL_UNMELTABLE
 
 /material/gold
-	name = "gold"
+	name = "Золото"
 	icon_colour = "#EDD12F"
 	hardness = 70
 	weight = 24
@@ -342,7 +342,7 @@ var/list/name_to_material
 	integrity = 75
 
 /material/copper
-	name = "copper"
+	name = "Медь"
 	icon_colour = "#b87333"
 	hardness = 42
 	weight = 14
@@ -353,7 +353,7 @@ var/list/name_to_material
 	integrity = 90
 
 /material/plastic
-	name = "plastic"
+	name = "Пластик"
 	icon_colour = "#dddddd"
 	hardness = 36
 	weight = 8
@@ -363,7 +363,7 @@ var/list/name_to_material
 	integrity = 30
 
 /material/tin
-	name = "tin"
+	name = "Олово"
 	icon_colour = "#d3d4d5"
 	hardness = 40
 	weight = 11
@@ -374,7 +374,7 @@ var/list/name_to_material
 	integrity = 60
 
 /material/bronze
-	name = "bronze"
+	name = "Бронза"
 	icon_colour = "#7c4611"
 	hardness = 47
 	weight = 17
@@ -385,7 +385,7 @@ var/list/name_to_material
 	integrity = 150
 
 /material/lead
-	name = "lead"
+	name = "Свинец"
 	icon_colour = "#444f53"
 	hardness = 35
 	weight = 30
@@ -396,7 +396,7 @@ var/list/name_to_material
 	integrity = 50
 
 /material/silver
-	name = "silver"
+	name = "Серебро"
 	icon_colour = "#D1E6E3"
 	hardness = 65
 	weight = 22
@@ -407,7 +407,7 @@ var/list/name_to_material
 	integrity = 100
 
 /material/sandstone
-	name = "sandstone"
+	name = "Песчаник"
 	icon_base = "new_stonebrick"
 	icon_colour = "#D9C179"
 	hardness = 45
@@ -420,7 +420,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/sandstone
 
 /material/stone
-	name = "stone"
+	name = "Камень"
 	icon_base = "stone_block_wall"
 	icon_colour = "#808080"
 	hardness = 50
@@ -433,7 +433,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/stone
 
 /material/concrete
-	name = "concrete"
+	name = "Бетон"
 	icon_base = "cement_wall"
 	icon_colour = null
 	hardness = 50
@@ -443,7 +443,7 @@ var/list/name_to_material
 	sheet_plural_name = "blocks"
 
 /material/stonebrick
-	name = "stonebrick"
+	name = "Каменный кирпич"
 	display_name = "stone brick"
 	icon_base = "new_stonebrick"
 	icon_colour = "#808080"
@@ -455,7 +455,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/stonebrick
 
 /material/brick
-	name = "brick"
+	name = "Кирпич"
 	display_name = "brick"
 	icon_base = "new_brick"
 	icon_colour = null
@@ -466,7 +466,7 @@ var/list/name_to_material
 	sheet_plural_name = "bricks"
 
 /material/flint
-	name = "flint"
+	name = "Кремень"
 	icon_colour = "#6f6a64"
 	hardness = 50
 	integrity = 110
@@ -475,7 +475,7 @@ var/list/name_to_material
 	sheet_plural_name = "stones"
 
 /material/bone
-	name = "bone"
+	name = "Кость"
 	icon_colour = "#ccd1c4"
 	hardness = 45
 	door_icon_base = "bone"
@@ -496,7 +496,7 @@ var/list/name_to_material
 */
 
 /material/marble
-	name = "marble"
+	name = "Мрамор"
 	icon_base = "new_stonebrick"
 	icon_colour = "#fffcf0" // marble - white
 	hardness = 45
@@ -509,7 +509,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/marble
 
 /material/steel
-	name = "steel"
+	name = "Сталь"
 	icon_base = "solid"
 	icon_reinf = "reinf_over"
 	icon_colour = "#666666"
@@ -520,7 +520,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/steel
 
 /material/glass
-	name = "glass"
+	name = "Стекло"
 	icon_colour = "#00E1FF"
 	hardness = 30
 	integrity = 15
@@ -541,7 +541,7 @@ var/list/name_to_material
 	return (hardness > 35) //todo
 
 /material/iron
-	name = "iron"
+	name = "Железо"
 	icon_base = "metal"
 	icon_colour = "#5C5454"
 	hardness = 55
@@ -554,13 +554,13 @@ var/list/name_to_material
 	integrity = 250
 
 /material/iron/indestructable
-	name = "indestructable"
+	name = "Неразрушаемо"
 	icon_base = "metal"
 	integrity = 1000000
 	hardness = 1000000
 
 /material/wood
-	name = "wood"
+	name = "Дерево"
 	icon_base = "wood"
 	icon_colour = "#824B28"
 	hardness = 40
@@ -578,7 +578,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/wood
 
 /material/wood/hard
-	name = "hardwood"
+	name = "Твердая древесина"
 	hardness = 200
 	integrity = 175
 	icon_base = "wood"
@@ -587,7 +587,7 @@ var/list/name_to_material
 
 
 /material/wood/soft
-	name = "softwood"
+	name = "Хвойная древесина"
 	hardness = 90
 	integrity = 80
 	door_icon_base = "wood"
@@ -595,7 +595,7 @@ var/list/name_to_material
 	weight = 10
 
 /material/bamboo
-	name = "bamboo"
+	name = "Бамбук"
 	icon_base = "wood"
 	icon_colour = "#414833"
 	hardness = 45
@@ -613,39 +613,39 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/bamboo
 
 /material/clay
-	name = "clay"
+	name = "Глина"
 	icon_colour = "#734222"
 	hardness = 90
 	integrity = 60
 
 /material/wood/straw
-	name = "straw"
+	name = "Солома"
 	icon_colour = "#BCB9B4"
 	hardness = 35
 	integrity = 55
 //	icon_base = "straw"
 
 /material/wood/log
-	name = "log"
+	name = "Бревно"
 	hardness = 200
 	integrity = 175
 	door_icon_base = "rustic"
 
 /material/paper
-	name = "paper"
+	name = "Бумага"
 	hardness = 25
 	integrity = 35
 	door_icon_base = "shoji"
 	hitsound = 'sound/effects/cardboardpunch.ogg'
 
 /material/cloth
-	name = "cloth"
+	name = "Ткань"
 	hardness = 10
 	door_icon_base = "wood"
 	flags = MATERIAL_PADDING
 
 /material/rettedfabric
-	name = "rettedfabric"
+	name = "Фабричная ткань"
 	display_name = "retted fabric"
 	icon_colour = "#c19a6b"
 	hardness = 7
@@ -654,7 +654,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/rettedfabric
 
 /material/rawkevlar
-	name = "rawkevlar"
+	name = "Сырой кевлар"
 	display_name = "raw kevlar"
 	icon_colour = "#fafad2"
 	hardness = 7
@@ -663,7 +663,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/rawkevlar
 
 /material/preparedkevlar
-	name = "preparedkevlar"
+	name = "Готовый кевлар"
 	display_name = "prepared kevlar"
 	icon_colour = "#fafad2" //goldenrod faint yellow
 	hardness = 7
@@ -672,7 +672,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/preparedkevlar
 
 /material/kevlar
-	name = "kevlar"
+	name = "Кевлар"
 	display_name = "kevlar"
 	icon_colour = "#696969" //dim grey
 	hardness = 45
@@ -682,14 +682,14 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/kevlar
 
 /material/woolcloth
-	name = "woolcloth"
+	name = "Шерстяная ткань"
 	hardness = 10
 	door_icon_base = "wood"
 	flags = MATERIAL_PADDING
 
 
 /material/rags
-	name = "rags"
+	name = "Тряпки"
 	icon_colour = "#EBEFFF"
 	hardness = 7
 	sheet_singular_name = "sheet"
@@ -697,7 +697,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/rags
 
 /material/electronics
-	name = "electronic"
+	name = "Электроника"
 	icon_colour = "#272727"
 	hardness = 20
 	weight = 14
@@ -707,19 +707,19 @@ var/list/name_to_material
 
 //TODO PLACEHOLDERS:
 /material/leather
-	name = "leather"
+	name = "Кожа"
 	icon_colour = "#5C4831"
 	hardness = 25
 	weight = 10
 	flags = MATERIAL_PADDING
 
 /material/leather/dark
-	name = "darkleather"
+	name = "Темная кожа"
 	use_name = "dark leather"
 	icon_colour = "#241C13"
 
 /material/pelt
-	name = "pelt"
+	name = "Шкура"
 	use_name = "pelt"
 	icon_colour = "#8C7E6E"
 	hardness = 30
@@ -728,7 +728,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/pelt
 
 /material/bearpelt/black
-	name = "bearpelt"
+	name = "Медвежья шкура"
 	use_name = "bear"
 	icon_colour = "#8C7E6E"
 	hardness = 30
@@ -737,7 +737,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/pelt/bearpelt/black
 
 /material/bearpelt/white
-	name = "whitebearpelt"
+	name = "Белая медвежья шкура"
 	use_name = "white bear"
 	icon_colour = "#e8e8e8" // "white smoke"
 	hardness = 30
@@ -746,7 +746,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/pelt/bearpelt/white
 
 /material/bearpelt/brown
-	name = "brownbearpelt"
+	name = "Коричневая медвежья шкура"
 	use_name = "brown bear"
 	icon_colour = "#8C7E6E"
 	hardness = 30
@@ -755,7 +755,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/pelt/bearpelt/brown
 
 /material/wolfpelt
-	name = "wolfpelt"
+	name = "Волчья шкура"
 	use_name = "wolf"
 	icon_colour = "#8C7E6E"
 	hardness = 30
@@ -764,7 +764,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/pelt/wolfpelt
 
 /material/whitewolfpelt
-	name = "white wolfpelt"
+	name = "Белая волчья шкура"
 	use_name = "wolf"
 	icon_colour = "#e8e8e8" // "white smoke"
 	hardness = 30
@@ -773,7 +773,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/pelt/wolfpelt/white
 
 /material/catpelt
-	name = "catpelt"
+	name = "Кошачья шкура"
 	use_name = "cat"
 	icon_colour = "#8C7E6E"
 	hardness = 30
@@ -782,7 +782,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/pelt/catpelt
 
 /material/pantherpelt
-	name = "pantherpelt"
+	name = "Шкура пантеры"
 	use_name = "panther"
 	icon_colour = "#8C7E6E"
 	hardness = 30
@@ -791,7 +791,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/pelt/pantherpelt
 
 /material/lionpelt
-	name = "lionpelt"
+	name = "Шкура льва"
 	use_name = "lion"
 	icon_colour = "#8C7E6E"
 	hardness = 30
@@ -800,7 +800,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/pelt/lionpelt
 
 /material/gatorpelt
-	name = "gatorpelt"
+	name = "Шкура крокодила"
 	use_name = "alligator"
 	icon_colour = "#443d36"
 	hardness = 30
@@ -809,7 +809,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/pelt/gatorpelt
 
 /material/lizardpelt
-	name = "lizardpelt"
+	name = "Шкура ящерицы"
 	use_name = "lizard"
 	icon_colour = "#6b8e23" 	//olive drab
 	hardness = 30
@@ -818,7 +818,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/pelt/lizardpelt
 
 /material/monkeypelt
-	name = "monkeypelt"
+	name = "Шкура обезьяны"
 	use_name = "monkey"
 	icon_colour = "#8C7E6E"
 	hardness = 30
@@ -827,7 +827,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/pelt/monkeypelt
 
 /material/foxpelt
-	name = "foxpelt"
+	name = "Шкура лисы"
 	use_name = "fox"
 	icon_colour = "#8C7E6E"
 	hardness = 30
@@ -836,7 +836,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/pelt/foxpelt
 
 /material/whitefoxpelt
-	name = "whitefoxpelt"
+	name = "Шкура белой лисы"
 	use_name = "white fox"
 	icon_colour = "#e8e8e8" // "white smoke"
 	hardness = 30
@@ -845,7 +845,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/pelt/foxpelt/white
 
 /material/sheeppelt
-	name = "sheeppelt"
+	name = "Овечья шкура"
 	use_name = "sheep"
 	icon_colour = "#8C7E6E" 	//white
 	hardness = 30
@@ -854,7 +854,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/pelt/sheeppelt
 
 /material/goatpelt
-	name = "goatpelt"
+	name = "Козья шкура"
 	use_name = "goat"
 	icon_colour = "#f5f5dc" 	//beige
 	hardness = 30
@@ -863,7 +863,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/pelt/goatpelt
 
 /material/cowpelt
-	name = "cowpelt"
+	name = "Бычья шкура"
 	use_name = "cow"
 	icon_colour = "#f5f5dc" 	//beige
 	hardness = 30
@@ -872,7 +872,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/pelt/cowpelt
 
 /material/bisonpelt
-	name = "bisonpelt"
+	name = "Шкура бизона"
 	use_name = "bison"
 	icon_colour = "#8C7E6E" 	//beige
 	hardness = 30
@@ -881,7 +881,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/pelt/bisonpelt
 
 /material/hairlesshide
-	name = "hairlesshide"
+	name = "Лысая шкура"
 	use_name = "hairless hide"
 	icon_colour = "#8C7E6E"
 	hardness = 30
@@ -910,7 +910,7 @@ var/list/name_to_material
 	hardness = 25
 */
 /material/humanpelt
-	name = "humanpelt"
+	name = "Кожа человека"
 	use_name = "human"
 	icon_colour = "#8C7E6E"
 	hardness = 30
@@ -919,7 +919,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/pelt/humanpelt
 
 /material/antpelt
-	name = "antpelt"
+	name = "Шкура муравья"
 	use_name = "ant"
 	icon_colour = "#0C0000"
 	hardness = 50
@@ -928,7 +928,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/pelt/antpelt
 
 /material/chitin
-	name = "chitin"
+	name = "Хитин"
 	use_name = "chitin"
 	icon_colour = "#3F0000"
 	hardness = 51
@@ -937,7 +937,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/chitin
 
 /material/gorillapelt
-	name = "gorillapelt"
+	name = "Шкура горилы"
 	use_name = "gorilla"
 	icon_colour = "#8C7E6E"
 	hardness = 30
@@ -948,7 +948,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/pelt/gorillapelt
 
 /material/orcpelt
-	name = "orcnpelt"
+	name = "Шкура орка"
 	use_name = "orc"
 	icon_colour = "#013220"
 	hardness = 45
@@ -957,7 +957,7 @@ var/list/name_to_material
 	stack_type = /obj/item/stack/material/pelt/orcpelt
 
 /material/carpet
-	name = "carpet"
+	name = "Ковер"
 	display_name = "comfy"
 	use_name = "red upholstery"
 	icon_colour = "#DA020A"
@@ -967,7 +967,7 @@ var/list/name_to_material
 	flags = MATERIAL_PADDING
 
 /material/cotton
-	name = "cotton"
+	name = "Хлопок"
 	display_name ="cotton"
 	icon_colour = "#FFFFFF"
 	hardness = 6
@@ -977,7 +977,7 @@ var/list/name_to_material
 	flags = MATERIAL_PADDING
 
 /material/wool
-	name = "wool"
+	name = "Шерсть"
 	display_name ="wool"
 	icon_colour = "#F1F1F1"
 	hardness = 6
@@ -987,7 +987,7 @@ var/list/name_to_material
 	flags = MATERIAL_PADDING
 
 /material/cloth_teal
-	name = "teal"
+	name = "Бирюзовая ткань"
 	display_name ="teal"
 	use_name = "teal cloth"
 	icon_colour = "#00EAFA"
@@ -995,7 +995,7 @@ var/list/name_to_material
 	flags = MATERIAL_PADDING
 
 /material/cloth_black
-	name = "black"
+	name = "Черная ткань"
 	display_name = "black"
 	use_name = "black cloth"
 	icon_colour = "#505050"
@@ -1003,7 +1003,7 @@ var/list/name_to_material
 	flags = MATERIAL_PADDING
 
 /material/cloth_green
-	name = "green"
+	name = "Зелёныя ткань"
 	display_name = "green"
 	use_name = "green cloth"
 	icon_colour = "#01C608"
@@ -1011,7 +1011,7 @@ var/list/name_to_material
 	flags = MATERIAL_PADDING
 
 /material/cloth_puple
-	name = "purple"
+	name = "Пурпурная ткань"
 	display_name = "purple"
 	use_name = "purple cloth"
 	icon_colour = "#9C56C4"
@@ -1019,7 +1019,7 @@ var/list/name_to_material
 	flags = MATERIAL_PADDING
 
 /material/cloth_blue
-	name = "blue"
+	name = "Синяя ткань"
 	display_name = "blue"
 	use_name = "blue cloth"
 	icon_colour = "#6B6FE3"
@@ -1027,7 +1027,7 @@ var/list/name_to_material
 	flags = MATERIAL_PADDING
 
 /material/cloth_beige
-	name = "beige"
+	name = "Бежевая ткань"
 	display_name = "beige"
 	use_name = "beige cloth"
 	icon_colour = "#E8E7C8"
@@ -1035,7 +1035,7 @@ var/list/name_to_material
 	flags = MATERIAL_PADDING
 
 /material/cloth_lime
-	name = "lime"
+	name = "Лаймовая ткань"
 	display_name = "lime"
 	use_name = "lime cloth"
 	icon_colour = "#62E36C"
@@ -1043,42 +1043,42 @@ var/list/name_to_material
 	flags = MATERIAL_PADDING
 
 /material/crystal
-	name = "white_crystal"
+	name = "Прозрачный кристал"
 	display_name = "white crystal"
 	use_name = "white crystal"
 	hardness = 75
 	flags = MATERIAL_PADDING
 
 /material/crystal/red
-	name = "red_crystal"
+	name = "Красный кристал"
 	display_name = "red crystal"
 	use_name = "red crystal"
 	hardness = 65
 	flags = MATERIAL_PADDING
 
 /material/crystal/blue
-	name = "blue_crystal"
+	name = "Синий кристал"
 	display_name = "blue crystal"
 	use_name = "blue crystal"
 	hardness = 75
 	flags = MATERIAL_PADDING
 
 /material/crystal/magenta
-	name = "magenta_crystal"
+	name = "Пурпурный кристал"
 	display_name = "magenta crystal"
 	use_name = "magenta crystal"
 	hardness = 75
 	flags = MATERIAL_PADDING
 
 /material/crystal/purple
-	name = "purple_crystal"
+	name = "Фиолетовый кристал"
 	display_name = "purple crystal"
 	use_name = "purple crystal"
 	hardness = 75
 	flags = MATERIAL_PADDING
 
 /material/crystal/orange
-	name = "orange_crystal"
+	name = "Оранжевый кристал"
 	display_name = "orange crystal"
 	use_name = "orange crystal"
 	hardness = 75

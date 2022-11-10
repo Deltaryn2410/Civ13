@@ -77,7 +77,7 @@
 	..()
 
 /obj/item/stack/material/iron
-	name = "iron"
+	name = "Железо"
 	icon_state = "sheet-iron"
 	default_type = "iron"
 	apply_colour = TRUE
@@ -88,14 +88,14 @@
 	amount = 25
 
 /obj/item/stack/material/barbwire
-	name = "Barbwire"
+	name = "Колючая проволка"
 	icon_state = "barbwire_stack"
 	default_type = "barbedwire"
 	value = 2
 	flags = CONDUCT
 
 /obj/item/stack/material/barbwire/ten
-	name = "Barbwire"
+	name = "Колючая проволка"
 	icon_state = "barbwire_stack"
 	default_type = "barbedwire"
 	value = 2
@@ -104,7 +104,7 @@
 /obj/item/stack/material/barbwire/twnt
 	amount = 20
 /obj/item/stack/material/bronze
-	name = "bronze"
+	name = "Бронза"
 	icon_state = "sheet-bronze"
 	default_type = "bronze"
 	apply_colour = TRUE
@@ -112,7 +112,7 @@
 	flags = CONDUCT
 
 /obj/item/stack/material/copper
-	name = "copper"
+	name = "Медь"
 	icon_state = "sheet-copper"
 	default_type = "copper"
 	apply_colour = TRUE
@@ -120,7 +120,7 @@
 	flags = CONDUCT
 
 /obj/item/stack/material/tin
-	name = "tin"
+	name = "Олово"
 	icon_state = "sheet-tin"
 	default_type = "tin"
 	apply_colour = TRUE
@@ -128,14 +128,14 @@
 	flags = CONDUCT
 
 /obj/item/stack/material/plastic
-	name = "plastic"
+	name = "Пластик"
 	icon_state = "sheet-plastic"
 	default_type = "plastic"
 	apply_colour = TRUE
 	value = 3
 
 /obj/item/stack/material/lead
-	name = "lead"
+	name = "Свинец"
 	icon_state = "sheet-lead"
 	default_type = "lead"
 	apply_colour = TRUE
@@ -143,25 +143,25 @@
 	flags = CONDUCT
 
 /obj/item/stack/material/sandstone
-	name = "sandstone"
+	name = "Песчанник"
 	icon_state = "sheet-sandstone"
 	default_type = "sandstone"
 	value = 2
 
 /obj/item/stack/material/stone
-	name = "stone block"
+	name = "Каменный блок"
 	icon_state = "sheet-stone"
 	default_type = "stone"
 	value = 2
 
 /obj/item/stack/material/stonebrick
-	name = "stone brick"
+	name = "Каменный кирпич	"
 	icon_state = "sheet-stonebrick"
 	default_type = "stonebrick"
 	value = 1
 
 /obj/item/stack/material/clay
-	name = "clay lump"
+	name = "кусочек глины"
 	icon = 'icons/obj/claystuff.dmi'
 	icon_state = "claylump"
 	default_type = "clay"
@@ -186,48 +186,48 @@
 			interact(usr)
 
 /obj/item/stack/material/electronics
-	name = "electronic circuits"
+	name = "Электросхемы"
 	icon_state = "sheet-electronics"
 	default_type = "electronic"
 	value = 5
 	flags = CONDUCT
 
 /obj/item/stack/material/marble
-	name = "marble block"
+	name = "Мраморный блок"
 	icon_state = "sheet-marble"
 	default_type = "marble"
 	value = 3
 
 /obj/item/stack/material/diamond
-	name = "diamond"
+	name = "Алмаз"
 	icon_state = "sheet-diamond"
 	default_type = "diamond"
 	value = 40
 	w_class = 1.0
 
 /obj/item/stack/material/obsidian
-	name = "obsidian"
+	name = "Обсидиан"
 	icon_state = "sheet-obsidian"
 	default_type = "obsidian"
 	value = 7
 	w_class = 1.0
 
 /obj/item/stack/material/rope
-	name = "Rope"
+	name = "Верёвка"
 	icon_state = "rope"
 	default_type = "rope"
 	value = 2
 	flammable = TRUE
 
 /obj/item/stack/material/hemp
-	name = "Hemp"
+	name = "Конопля"
 	icon_state = "hemp"
 	default_type = "hemp"
 	value = 2
 	flammable = TRUE
 
 /obj/item/stack/material/flax
-	name = "Flax"
+	name = "Лен"
 	icon_state = "flax"
 	default_type = "flax"
 	value = 2
@@ -277,7 +277,7 @@
 			return
 
 /obj/item/stack/material/leaf/palm
-	name = "Palm"
+	name = "Пальмовые листья"
 	icon = 'icons/obj/items.dmi'
 	icon_state = "palm_leaves"
 	default_type = "palm"
@@ -286,7 +286,7 @@
 	decay = 80*600
 
 /obj/item/stack/material/leaf/fern
-	name = "Fern"
+	name = "Папоротник"
 	icon = 'icons/obj/items.dmi'
 	icon_state = "fernleaf1"
 	default_type = "fern"
@@ -298,7 +298,7 @@
 		icon_state = pick("fernleaves1","fernleaves2")
 
 /obj/item/stack/material/tobacco_green
-	name = "fresh tobacco leaves"
+	name = "Свежие листья табака"
 	icon_state = "tobacco_green"
 	default_type = "tobacco"
 	value = 2
@@ -307,7 +307,7 @@
 	dry_size = 9
 
 /obj/item/stack/material/tobacco
-	name = "dried tobacco leaves"
+	name = "Сушеные листья табака"
 	icon_state = "tobacco"
 	default_type = "tobacco"
 	value = 3
@@ -315,8 +315,8 @@
 	flammable = TRUE
 
 /obj/item/stack/material/coca
-	name = "coca leaves"
-	desc = "Can be made into cocaine."
+	name = "Листья коки"
+	desc = "Из этого делают Кокаин."
 	icon_state = "coca"
 	default_type = "coca"
 	value = 2
@@ -324,8 +324,8 @@
 	flammable = TRUE
 
 /obj/item/stack/material/poppy
-	name = "poppy"
-	desc = "Dried opium poppies. Opium can be extracted."
+	name = "Мак"
+	desc = "Это сушеные листья мака. Можно сделать опиум."
 	icon_state = "poppy"
 	default_type = "poppy"
 	value = 5
@@ -333,7 +333,7 @@
 	flammable = TRUE
 
 /obj/item/stack/material/straw
-	name = "straw"
+	name = "Солома"
 	icon_state = "sheet-straw"
 	default_type = "straw"
 	value = 3
@@ -362,21 +362,21 @@
 				qdel(src)
 
 /obj/item/stack/material/gold
-	name = "gold"
+	name = "Золото"
 	icon_state = "sheet-gold"
 	default_type = "gold"
 	value = 40
 	flags = CONDUCT
 
 /obj/item/stack/material/silver
-	name = "silver"
+	name = "Серебро"
 	icon_state = "sheet-silver"
 	default_type = "silver"
 	value = 20
 	flags = CONDUCT
 
 /obj/item/stack/material/steel
-	name = "steel"
+	name = "Сталь"
 	icon_state = "sheet-metal"
 	default_type = "steel"
 	value = 5
@@ -387,7 +387,7 @@
 	amount = 25
 
 /obj/item/stack/material/wood
-	name = "wooden plank"
+	name = "Деревянная планка"
 	icon_state = "sheet-wood"
 	default_type = "wood"
 	dropsound = 'sound/effects/drop_wood.ogg'
@@ -424,7 +424,7 @@
 	return ..()
 
 /obj/item/stack/material/bamboo
-	name = "bamboo bundle"
+	name = "Пучек бамбуковых стеблей "
 	icon_state = "sheet-bamboo"
 	default_type = "bamboo"
 	dropsound = 'sound/effects/drop_wood.ogg'
@@ -432,14 +432,14 @@
 	flammable = TRUE
 
 /obj/item/stack/material/cotton
-	name = "cotton pile"
+	name = "Куча хлопка"
 	icon_state = "sheet-cotton"
 	default_type = "cotton"
 	value = 2
 	flammable = TRUE
 
 /obj/item/stack/material/cloth
-	name = "cloth"
+	name = "Тряпка"
 	icon_state = "sheet-cloth"
 	default_type = "cloth"
 	value = 3
@@ -447,7 +447,7 @@
 	flammable = TRUE
 
 /obj/item/stack/material/rettedfabric
-	name = "retted fabric"
+	name = "Фабричная ткань"
 	icon_state = "sheet-rettedfabric"
 	default_type = "rettedfabric"
 	value = 1
@@ -455,28 +455,28 @@
 	flammable = TRUE
 
 /obj/item/stack/material/rawkevlar
-	name = "raw kevlar"
+	name = "Сырой кевлар"
 	icon_state = "sheet-rawkevlar"
 	default_type = "rawkevlar"
 	value = 1
 	w_class = 2.0
 
 /obj/item/stack/material/preparedkevlar
-	name = "prepared kevlar"
+	name = "Готовый кевлар"
 	icon_state = "sheet-preparedkevlar"
 	default_type = "preparedkevlar"
 	value = 1
 	w_class = 2.0
 
 /obj/item/stack/material/kevlar
-	name = "kevlar sheets"
+	name = "Кевларовые пластины"
 	icon_state = "sheet-kevlar"
 	default_type = "kevlar"
 	value = 15
 	w_class = 2.0
 
 /obj/item/stack/material/rags
-	name = "rags"
+	name = "Тряпки"
 	icon = 'icons/obj/trash.dmi'
 	icon_state = "rag"
 	default_type = "rags"
@@ -485,7 +485,7 @@
 	flammable = TRUE
 
 /obj/item/stack/material/wool
-	name = "wool pile"
+	name = "Куча шерсти"
 	icon_state = "woolpile"
 	default_type = "wool"
 	value = 2
@@ -493,7 +493,7 @@
 	flammable = TRUE
 
 /obj/item/stack/material/woolcloth
-	name = "wool cloth"
+	name = "Шерстяная ткань"
 	icon_state = "wool_roll"
 	default_type = "woolcloth"
 	value = 3
@@ -501,8 +501,8 @@
 	flammable = TRUE
 
 /obj/item/stack/material/leather
-	name = "leather"
-	desc = "The by-product of mob grinding."
+	name = "Кожа"
+	desc = "Это продукт разделки существ."
 	icon_state = "sheet-leather"
 	default_type = "leather"
 	value = 2
@@ -520,8 +520,8 @@
 */
 
 /obj/item/stack/material/pelt
-	name = "animal pelt"
-	desc = "A pelt from a skinned animal."
+	name = "Шкура животного"
+	desc = "Эта шкура разделаного животного."
 	icon_state = "sheet-bearpelt"
 	default_type = "pelt"
 	value = 3
@@ -529,30 +529,30 @@
 	flammable = TRUE
 
 /obj/item/stack/material/pelt/bearpelt/black
-	name = "black bear pelt"
-	desc = "A pelt from a skinned bear."
+	name = "Шкура черного медведя"
+	desc = "Это шкура разделаного медведя."
 	icon_state = "sheet-bearpelt"
 	default_type = "bearpelt"
 	value = 3
 	w_class = 2.0
 	flammable = TRUE
 /obj/item/stack/material/pelt/bearpelt/brown
-	name = "brown bear pelt"
-	desc = "A pelt from a skinned bear."
+	name = "Шкура коричневого медведя"
+	desc = "Это шкура разделаного медведя."
 	icon_state = "sheet-brownbearpelt"
 	default_type = "brownbearpelt"
 	value = 3
 
 /obj/item/stack/material/pelt/bearpelt/white
-	name = "white bear pelt"
-	desc = "A pelt from a skinned bear."
+	name = "Шкура белого медведя"
+	desc = "Это шкура разделаного медведя."
 	icon_state = "sheet-whitebearpelt"
 	default_type = "whitebearpelt"
 	value = 3
 
 /obj/item/stack/material/pelt/wolfpelt
-	name = "wolf pelt"
-	desc = "A pelt from a skinned wolf."
+	name = "Шкура волка"
+	desc = "Шкура разделаного волка."
 	icon_state = "sheet-wolfpelt"
 	default_type = "wolfpelt"
 	w_class = 2.0
@@ -560,8 +560,8 @@
 	value = 3
 
 /obj/item/stack/material/pelt/wolfpelt/white
-	name = "white wolf pelt"
-	desc = "A pelt from a skinned white wolf."
+	name = "Шкура белого волка"
+	desc = "Шкура белого разделаного волка."
 	icon_state = "sheet-whitewolfpelt"
 	default_type = "whitewolfpelt"
 	w_class = 2.0
@@ -569,16 +569,16 @@
 	value = 3
 
 /obj/item/stack/material/pelt/catpelt
-	name = "cat pelt"
-	desc = "A pelt from a skinned cat."
+	name = "Шкура кошки"
+	desc = "Шкура разделаного кота."
 	icon_state = "sheet-catpelt"
 	default_type = "catpelt"
 	w_class = 2.0
 	flammable = TRUE
 	value = 3
 /obj/item/stack/material/pelt/pantherpelt
-	name = "panther pelt"
-	desc = "A pelt from a skinned panther."
+	name = "Шкура пантеры"
+	desc = "Шкура разделаной пантеры."
 	icon_state = "sheet-pantherpelt"
 	default_type = "pantherpelt"
 	w_class = 2.0
@@ -586,8 +586,8 @@
 	value = 3
 
 /obj/item/stack/material/pelt/lionpelt
-	name = "lion pelt"
-	desc = "A pelt from a skinned lion."
+	name = "Шкура льва"
+	desc = "Шкура разделаного льва."
 	icon_state = "sheet-lionpelt"
 	default_type = "lionpelt"
 	w_class = 2.0
@@ -595,8 +595,8 @@
 	value = 3
 
 /obj/item/stack/material/pelt/gatorpelt
-	name = "gator pelt"
-	desc = "A pelt from a skinned alligator."
+	name = "Шкура крокодила"
+	desc = "Шкура разделаного крокодила."
 	icon_state = "sheet-gatorpelt"
 	default_type = "gatorpelt"
 	w_class = 2.0
@@ -604,8 +604,8 @@
 	value = 3
 
 /obj/item/stack/material/pelt/lizardpelt
-	name = "lizard pelt"
-	desc = "A pelt from a skinned lizard."
+	name = "Шкура ящерицы"
+	desc = "Шкура разделаной ящерицы."
 	icon_state = "sheet-lizardpelt"
 	default_type = "lizardpelt"
 	w_class = 2.0
@@ -613,8 +613,8 @@
 	value = 3
 
 /obj/item/stack/material/pelt/monkeypelt
-	name = "monkey pelt"
-	desc = "A pelt from a skinned monkey."
+	name = "Шкура ящерицы"
+	desc = "Шкура разделаной обезьяны."
 	icon_state = "sheet-monkeypelt"
 	default_type = "monkeypelt"
 	w_class = 2.0
@@ -622,16 +622,16 @@
 	value = 3
 
 /obj/item/stack/material/pelt/foxpelt
-	name = "fox pelt"
-	desc = "A pelt from a skinned fox."
+	name = "Шкура лисы"
+	desc = "Шкура разделаной лисы."
 	icon_state = "sheet-foxpelt"
 	default_type = "foxpelt"
 	w_class = 2.0
 	flammable = TRUE
 	value = 3
 /obj/item/stack/material/pelt/foxpelt/white
-	name = "white fox pelt"
-	desc = "A pelt from a skinned white fox."
+	name = "Шкура белой лисы"
+	desc = "Шкура разделаной полярной лисы."
 	icon_state = "sheet-whitefoxpelt"
 	default_type = "whitefoxpelt"
 	w_class = 2.0
@@ -639,8 +639,8 @@
 	value = 3
 
 /obj/item/stack/material/pelt/sheeppelt
-	name = "sheep pelt"
-	desc = "A wooly pelt from a skinned sheep."
+	name = "Шкура овцы"
+	desc = "Шкура разделаной овцы."
 	icon_state = "sheet-sheeppelt"
 	default_type = "sheeppelt"
 	w_class = 2.0
@@ -648,8 +648,8 @@
 	value = 2
 
 /obj/item/stack/material/pelt/goatpelt
-	name = "goat pelt"
-	desc = "A pelt from a skinned goat."
+	name = "Шкура козла"
+	desc = "Шкура разделаного козла."
 	icon_state = "sheet-goatpelt"
 	default_type = "goatpelt"
 	w_class = 2.0
@@ -657,8 +657,8 @@
 	value = 2
 
 /obj/item/stack/material/pelt/cowpelt
-	name = "cattle pelt"
-	desc = "A pelt from skinned cattle."
+	name = "Шкура быка"
+	desc = "Шкура разделаного быка."
 	icon_state = "sheet-cowpelt"
 	default_type = "cowpelt"
 	w_class = 2.0
@@ -666,8 +666,8 @@
 	value = 5
 
 /obj/item/stack/material/pelt/bisonpelt
-	name = "bison pelt"
-	desc = "A pelt from a skinned bison."
+	name = "Шкура бизона"
+	desc = "Шкура разделаного бизона."
 	icon_state = "sheet-bisonpelt"
 	default_type = "bisonpelt"
 	w_class = 2.0
@@ -675,8 +675,8 @@
 	value = 15
 
 /obj/item/stack/material/pelt/orcpelt
-	name = "Orc Pelt"
-	desc = "The skin of an Orc"
+	name = "Кожа орка"
+	desc = "Кожа освежованого Орка."
 	icon_state = "sheet-orcpelt"
 	default_type = "orcpelt"
 	value = 0
@@ -684,8 +684,8 @@
 	flammable = TRUE
 
 /obj/item/stack/material/pelt/humanpelt
-	name = "human pelt"
-	desc = "A skin from a dead person."
+	name = "Кожа человека"
+	desc = "Кожа освежованого человека."
 	icon_state = "sheet-humanpelt"
 	default_type = "humanpelt"
 	value = 0
@@ -698,8 +698,8 @@
 		qdel(src)
 
 /obj/item/stack/material/pelt/antpelt
-	name = "ant pelt"
-	desc = "The skin from a dead ant."
+	name = "Муравьиная шкура"
+	desc = "Шкура разделаного муравья."
 	icon_state = "sheet-antpelt"
 	default_type = "ant"
 	flammable = TRUE
@@ -707,8 +707,8 @@
 	w_class = 2.0
 
 /obj/item/stack/material/chitin
-	name = "chitin"
-	desc = "The armor of Trilobites...and Ants"
+	name = "Хитиновый панцирь"
+	desc = "Броня трилобитов....или муравьев"
 	icon_state = "chitin_material"
 	default_type = "chitin"
 	flammable = TRUE
@@ -716,8 +716,8 @@
 	w_class = 2.0
 
 /obj/item/stack/material/pelt/orcpelt
-	name = "orc skin"
-	desc = "A rough skin, it'l like a flexible rock..."
+	name = "Грубая кожа орка "
+	desc = "Грубая, упругая кожа. Она похожа на камень..."
 	icon_state = "sheet-orcpelt"
 	default_type = "orcpelt"
 	flammable = TRUE
@@ -725,8 +725,8 @@
 	w_class = 2.0
 
 /obj/item/stack/material/pelt/gorillapelt
-	name = "gorilla pelt"
-	desc = "The skin from a dead gorilla."
+	name = "Шкура горилы"
+	desc = "Это кожа мертвой горилы."
 	icon_state = "sheet-gorillapelt"
 	default_type = "gorillapelt"
 	flammable = TRUE
@@ -734,21 +734,21 @@
 	w_class = 2.0
 
 /obj/item/stack/material/glass
-	name = "glass"
+	name = "Стекло"
 	icon_state = "sheet-glass"
 	default_type = "glass"
 	dropsound = 'sound/effects/drop_glass.ogg'
 	value = 3
 
 /obj/item/stack/material/glass/reinforced
-	name = "reinforced glass"
+	name = "Укрепленное стекло"
 	icon_state = "sheet-rglass"
 	default_type = "rglass"
 	value = 6
 	flags = CONDUCT
 
 /obj/item/stack/material/bone
-	name = "bones"
+	name = "Кости"
 	icon_state = "sheet-bone"
 	default_type = "bone"
 	dropsound = 'sound/effects/drop_wood.ogg'
@@ -768,7 +768,7 @@
 	..()
 
 /obj/item/stack/material/fossil
-	name = "fossil"
+	name = "Окаменелость"
 	icon = 'icons/obj/materials.dmi'
 	icon_state = "fossil_1"
 	default_type = "stone"
