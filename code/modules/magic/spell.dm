@@ -4,9 +4,9 @@ open//totally not basing this off of the language datum system.
 /datum/spell
 	var/name 		= "Generic Spell"
 	var/desc   		= "A generic spell."
-	var/icon 		= 'icons/obj/magicprojectiles.dmi'
+	var/icon 		= 'icons/obj/magicicon.dmi'
 	var/icon_state 	= "energy"
-	var/proj_icon	= 'icons/obj/magicicon.dmi'
+	var/proj_icon	= 'icons/obj/magicprojectiles.dmi'
 	var/proj_state	= "0"
 
 	var/school   	= "Abjuration"		// Spell Type.
